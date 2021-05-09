@@ -1,4 +1,5 @@
 import { useState } from "react"
+import styles from './Registration.module.css'
 
 const Registartion = () => {
   const [fullName, setfullName] = useState('');
@@ -44,17 +45,14 @@ const Registartion = () => {
     }
   }
   return (
-    <>
-      <h2>Register</h2>
+    <section className={styles.container}>
+      <h1 className={styles.h1}>Register</h1>
       <div>
         <div>
           <span>Full Name:</span>
         </div>
         <div>
-          <input
-            type="text"
-            onChange={onChangeName}
-          />
+          <input type="text" onChange={onChangeName} />
         </div>
       </div>
       <div>
@@ -62,10 +60,7 @@ const Registartion = () => {
           <span>E-mail:</span>
         </div>
         <div>
-          <input
-            type="text"
-            onChange={onEmailChange}
-          />
+          <input type="text" onChange={onEmailChange} />
         </div>
       </div>
       <div>
@@ -73,16 +68,15 @@ const Registartion = () => {
           <span>Password:</span>
         </div>
         <div>
-          <input
-            type="text"
-            onChange={onPasswordChange}
-          />
+          <input type="text" onChange={onPasswordChange} />
         </div>
       </div>
       <div>
-        <button type="button" onClick={onButtonSubmit}>Sign Up</button>
+        <button type="button" onClick={onButtonSubmit} className={styles.buttonSignUp}>
+          Sign Up
+        </button>
       </div>
-    </>
+    </section>
   );
 }
 
