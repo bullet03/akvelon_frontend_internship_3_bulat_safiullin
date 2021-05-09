@@ -47,7 +47,7 @@ const Registartion = () => {
   return (
     <section className={styles.container}>
       <h1 className={styles.h1}>Register</h1>
-      <div>
+      <div className={styles.fieldContainer}>
         <div>
           <span>Full Name:</span>
         </div>
@@ -55,7 +55,7 @@ const Registartion = () => {
           <input type="text" onChange={onChangeName} />
         </div>
       </div>
-      <div>
+      <div className={styles.fieldContainer}>
         <div>
           <span>E-mail:</span>
         </div>
@@ -63,7 +63,7 @@ const Registartion = () => {
           <input type="text" onChange={onEmailChange} />
         </div>
       </div>
-      <div>
+      <div className={styles.fieldContainer}>
         <div>
           <span>Password:</span>
         </div>
@@ -72,7 +72,11 @@ const Registartion = () => {
         </div>
       </div>
       <div>
-        <button type="button" onClick={onButtonSubmit} className={styles.buttonSignUp}>
+        <button
+          type="button"
+          onClick={onButtonSubmit}
+          className={styles.buttonSignUp}
+        >
           Sign Up
         </button>
       </div>
