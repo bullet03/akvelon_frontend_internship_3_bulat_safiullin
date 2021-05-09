@@ -1,6 +1,6 @@
 # FUTURE DESCRIPTION
 
-Description text
+React application with slider, registration form and function tasks. All available on different pages. To see next slide, use green arrow buttons. To complete registration, fill the forms. 
 
 <a href="#">DEMO<a>
 

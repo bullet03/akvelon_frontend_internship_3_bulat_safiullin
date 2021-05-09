@@ -1,4 +1,4 @@
-// we cav solve this task in 3 ways: with set, filter and by forEach
+// we cav solve this task in 3 ways: set, filter and for
 
 const uniqueWords = (str) => {
   const arrFromStr = str.split(" ");

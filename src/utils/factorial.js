@@ -1,4 +1,4 @@
-//we can solve it in 3 different ways: recursive process, iteractive process and with for;
+//we can solve it in 3 different ways: recursive process, iteractive process and using for;
 
 const factorial = (num) => {
   let result = 1;
