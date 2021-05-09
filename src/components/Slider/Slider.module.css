@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1 auto auto;
 }
 
 .slider {
@@ -29,4 +30,43 @@
   border-radius: 8px;
   color: white;
   font-size: 30px;
+}
+
+@media (min-width: 501px) and (max-width: 750px) {
+  .slider {
+    width: 500px;
+    height: 330px;
+  }
+
+  .picture {
+    width: 406px;
+    height: 326px;
+  }
+
+  .rightArrow,
+  .leftArrow {
+    width: 25px;
+    height: 140px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider {
+    width: 350px;
+    height: 230px;
+  }
+
+  .picture {
+    width: 276px;
+    height: 226px;
+  }
+
+  .rightArrow,
+  .leftArrow {
+    width: 20px;
+    height: 100px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
 }
