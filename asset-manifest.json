@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/akvelon_frontend_internship_3_bulat_safiullin/static/css/main.f0361ecb.chunk.css",
+    "main.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.3d53157f.chunk.js",
+    "main.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.3d53157f.chunk.js.map",
+    "runtime-main.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/runtime-main.914f030b.js",
+    "runtime-main.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/runtime-main.914f030b.js.map",
+    "static/js/2.ce8d1861.chunk.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/2.ce8d1861.chunk.js",
+    "static/js/2.ce8d1861.chunk.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/2.ce8d1861.chunk.js.map",
+    "index.html": "/akvelon_frontend_internship_3_bulat_safiullin/index.html",
+    "static/css/main.f0361ecb.chunk.css.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/css/main.f0361ecb.chunk.css.map",
+    "static/js/2.ce8d1861.chunk.js.LICENSE.txt": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/2.ce8d1861.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.914f030b.js",
+    "static/js/2.ce8d1861.chunk.js",
+    "static/css/main.f0361ecb.chunk.css",
+    "static/js/main.3d53157f.chunk.js"
+  ]
+}
