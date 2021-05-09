@@ -1,4 +1,4 @@
-# FUTURE DESCRIPTION
+# AKVELON FRONTEND INTERNSHIP 3 BULAT SAFIULLIN
 
 React application with slider, registration form and function tasks. All available on different pages. To see next slide, use green arrow buttons. To complete registration, fill the forms.
 
