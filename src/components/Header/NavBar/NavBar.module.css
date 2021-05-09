@@ -1,0 +1,12 @@
+.navbar a {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-size: 22px;
+  transition: color 0.15s;
+}
+
+.navbar a:hover {
+  color: #f7b969;
+}
