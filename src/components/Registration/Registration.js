@@ -12,12 +12,10 @@ const Registartion = () => {
 
   const onChangeName = (e) => {
     setfullName(e.target.value);
-
   }
   const onEmailChange = (e) => {
     setEmail(e.target.value);
   }
-
   const onPasswordChange = (e) => {
     setPassword(e.target.value)
   }
