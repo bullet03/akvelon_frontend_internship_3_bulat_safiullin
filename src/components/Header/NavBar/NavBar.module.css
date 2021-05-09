@@ -1,7 +1,7 @@
 .navbar a {
   display: inline-block;
-  padding-right: 15px;
-  padding-left: 20px;
+  padding-right: 10px;
+  padding-left: 25px;
   padding-top: 15px;
   font-size: 22px;
   transition: color 0.15s;
@@ -9,4 +9,13 @@
 
 .navbar a:hover {
   color: #f7b969;
+}
+
+@media (max-width: 450px) {
+  .navbar a {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+  }
 }
