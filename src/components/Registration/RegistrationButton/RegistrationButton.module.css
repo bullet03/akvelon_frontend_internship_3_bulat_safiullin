@@ -1,0 +1,9 @@
+.buttonSignUp {
+  height: 30px;
+  width: 90px;
+  margin-top: 15px;
+  background-color: #3e9cfb;
+  color: white;
+  border: 1px solid #1b8cfc;
+  border-radius: 3px;
+}
