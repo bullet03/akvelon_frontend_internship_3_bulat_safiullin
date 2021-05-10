@@ -29,7 +29,7 @@ const Slider = () => {
         </button>
         <img
           src={sliderImages[imageIndex]}
-          alt="picture"
+          alt="nature"
           className={styles.picture}
         />
         <button type="button" onClick={showNext} className={styles.rightArrow}>
