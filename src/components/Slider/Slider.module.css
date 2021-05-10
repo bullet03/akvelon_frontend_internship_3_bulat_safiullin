@@ -30,6 +30,7 @@
   border-radius: 8px;
   color: white;
   font-size: 30px;
+  cursor: pointer;
 }
 
 @media (min-width: 501px) and (max-width: 750px) {
