@@ -1,24 +1,16 @@
 import React from "react";
 import styles from "./CodingFunctions.module.css";
 import taskFunctions from "../../consts/taskFunctions";
+import SingleFunction from "./SingleFunction"
 
 const CodingFunctions = () => {
   const [factorial, reverseBits, uniqueWords] = taskFunctions;
 
   return (
     <section className={styles.container}>
-      <div className={styles.functionCard}>
-        <span className={styles.functionHead}>Factorial</span>
-        <div className={styles.functionCode}>{factorial}</div>
-      </div>
-      <div className={styles.functionCard}>
-        <span className={styles.functionHead}>ReverseBits</span>
-        <div className={styles.functionCode}>{reverseBits}</div>
-      </div>
-      <div className={styles.functionCard}>
-        <span className={styles.functionHead}>uniqueWords</span>
-        <div className={styles.functionCode}>{uniqueWords}</div>
-      </div>
+      <SingleFunction name="Factorial" code={factorial} />
+      <SingleFunction name="ReverseBits" code={reverseBits} />
+      <SingleFunction name="UniqueWords" code={uniqueWords} />
     </section>
   );
 };
