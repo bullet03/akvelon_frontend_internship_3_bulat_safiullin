@@ -35,13 +35,13 @@ const Registartion = () => {
       setText("You should complete all fields");
     } else if (!onFullNameCheck()) {
       setIsOpen(!isOpen);
-      setText("FullName format is not correct");
+      setText("FullName format should only contain letters");
     } else if (!onEmailCheck()) {
       setIsOpen(!isOpen);
-      setText("email format is not correct");
+      setText("Email doesn't have @");
     } else if (!onPasswordCheck()) {
       setIsOpen(!isOpen);
-      setText("password is too short");
+      setText("Password should be at least 8 symbols length");
     } else {
       setIsOpen(!isOpen);
       setText("Success");
