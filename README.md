@@ -4,7 +4,7 @@ React application with slider, registration form and function tasks. All availab
 
 <a href="https://bullet03.github.io/akvelon_frontend_internship_3_bulat_safiullin/">DEMO<a>
 
-<img src="./src/assets/screen.png" alt="screenshot"/>
+<img src="./assets/screen.png" alt="screenshot"/>
 
 - React v17 (CRA)
 - Routing
