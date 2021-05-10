@@ -2,38 +2,34 @@ import React from "react";
 import FormInput from "./FormInput"
 
 const RegistrationInputs = ({ setUserInfo, userInfo }) => {
-  const onChangeName = (e) => {
-    setUserInfo({...userInfo, fullName: e.target.value});
-  };
-  const onEmailChange = (e) => {
-    setUserInfo({ ...userInfo, email: e.target.value });
-  };
-  const onPasswordChange = (e) => {
-    setUserInfo({ ...userInfo, password: e.target.value });
-  };
+  const onChange = (fieldName, userInfo) => {
+    return (e) => {
+      setUserInfo({ ...userInfo, [fieldName]: e.target.value });
+    }
+  }
 
   return (
     <>
       <FormInput
-        text="FullName"
         label="FullName"
         value={userInfo.FullName}
+        text="FullName"
         type="text"
-        onChange={onChangeName}
+        onChange={onChange("fullName", userInfo)}
       />
       <FormInput
-        text="Email"
         label="email"
         value={userInfo.email}
+        text="Email"
         type="email"
-        onChange={onEmailChange}
+        onChange={onChange("email", userInfo)}
       />
       <FormInput
-        text="Password"
         label="FullName"
         value={userInfo.password}
+        text="Password"
         type="password"
-        onChange={onPasswordChange}
+        onChange={onChange("password", userInfo)}
       />
     </>
   );
