@@ -1,5 +1,6 @@
+import React from "react";
 import styles from "./CodingFunctions.module.css";
-import taskFunctions from "../../consts/taskFunctions"
+import taskFunctions from "../../consts/taskFunctions";
 
 const CodingFunctions = () => {
   const [factorial, reverseBits, uniqueWords] = taskFunctions;
@@ -20,6 +21,6 @@ const CodingFunctions = () => {
       </div>
     </section>
   );
-}
+};
 
 export default CodingFunctions;

@@ -1,4 +1,5 @@
-import styles from "./RegistrationButton.module.css"
+import React from "react";
+import styles from "./RegistrationButton.module.css";
 
 const RegistrationButton = (props) => {
   const { fullName, email, password } = props;
@@ -42,6 +43,6 @@ const RegistrationButton = (props) => {
       Sign Up
     </button>
   );
-}
+};
 
 export default RegistrationButton;

@@ -1,3 +1,4 @@
+import React from "react"
 import { Route, Switch } from "react-router-dom";
 import CodingFunctions from "./components/CodingFunctions/CodingFunctions";
 import Registartion from "./components/Registration";

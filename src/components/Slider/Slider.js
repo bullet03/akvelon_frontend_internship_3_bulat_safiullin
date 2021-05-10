@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import sliderImages from '../../consts/sliderImages.js'
 import styles from './Slider.module.css'
 import SliderArrow from "./SliderArrow"

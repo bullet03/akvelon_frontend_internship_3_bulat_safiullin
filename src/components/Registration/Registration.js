@@ -1,4 +1,4 @@
-import { useState } from "react"
+import React, { useState } from "react"
 import styles from './Registration.module.css'
 import RegistrationButton from "./RegistrationButton"
 import RegistrationInputs from "./RegistrationInputs"

@@ -1,4 +1,5 @@
-import styles from "./SliderArrow.module.css"
+import React from "react";
+import styles from "./SliderArrow.module.css";
 
 const SliderArrow = (props) => {
   const { imageIndex, setImageIndex, sliderImages, sign, func } = props;
@@ -32,6 +33,6 @@ const SliderArrow = (props) => {
       {sign}
     </button>
   );
-}
+};
 
 export default SliderArrow;

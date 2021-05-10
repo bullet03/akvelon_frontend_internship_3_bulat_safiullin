@@ -1,5 +1,6 @@
+import React from "react";
 import styles from "./RegistrationInputs.module.css";
-import RegistrationSingleInput from "./RegistrationSingleInput"
+import RegistrationSingleInput from "./RegistrationSingleInput";
 
 const RegistrationInputs = (props) => {
   const { setfullName, setEmail, setPassword } = props;
@@ -30,6 +31,6 @@ const RegistrationInputs = (props) => {
       </div>
     </>
   );
-}
+};
 
 export default RegistrationInputs;
