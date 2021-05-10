@@ -1,34 +1,40 @@
 import React from "react";
-import styles from "./RegistrationInputs.module.css";
-import RegistrationSingleInput from "./RegistrationSingleInput";
+import FormInput from "./FormInput"
 
-const RegistrationInputs = (props) => {
-  const { setfullName, setEmail, setPassword } = props;
-
+const RegistrationInputs = ({ setUserInfo, userInfo }) => {
   const onChangeName = (e) => {
-    setfullName(e.target.value);
+    setUserInfo({...userInfo, fullName: e.target.value});
   };
   const onEmailChange = (e) => {
-    setEmail(e.target.value);
+    setUserInfo({ ...userInfo, email: e.target.value });
   };
   const onPasswordChange = (e) => {
-    setPassword(e.target.value);
+    setUserInfo({ ...userInfo, password: e.target.value });
   };
 
   return (
     <>
-      <div className={styles.fieldContainer}>
-        <span>Full Name:</span>
-        <RegistrationSingleInput funcToUse={onChangeName} />
-      </div>
-      <div className={styles.fieldContainer}>
-        <span>E-mail:</span>
-        <RegistrationSingleInput funcToUse={onEmailChange} />
-      </div>
-      <div className={styles.fieldContainer}>
-        <span>Password:</span>
-        <RegistrationSingleInput funcToUse={onPasswordChange} />
-      </div>
+      <FormInput
+        text="FullName"
+        label="FullName"
+        value={userInfo.FullName}
+        type="text"
+        onChange={onChangeName}
+      />
+      <FormInput
+        text="Email"
+        label="email"
+        value={userInfo.email}
+        type="email"
+        onChange={onEmailChange}
+      />
+      <FormInput
+        text="Password"
+        label="FullName"
+        value={userInfo.password}
+        type="password"
+        onChange={onPasswordChange}
+      />
     </>
   );
 };
