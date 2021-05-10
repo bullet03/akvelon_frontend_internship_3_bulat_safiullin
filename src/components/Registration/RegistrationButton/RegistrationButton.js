@@ -3,6 +3,17 @@ import styles from "./RegistrationButton.module.css"
 const RegistrationButton = (props) => {
   const { fullName, email, password } = props;
 
+  const onEmailCheck = () => email.includes("@");
+  const onFullNameCheck = () => {
+    const regex = /^[a-zA-Z\s]{1,120}$/;
+    return regex.test(fullName);
+  };
+  const onPasswordCheck = () => password.length >= 8;
+
+  const printValues = () => {
+    console.log(fullName, email, password);
+  };
+
   const onButtonSubmit = () => {
     if (!fullName || !email || !password) {
       alert("You should complete all fields");
@@ -20,17 +31,6 @@ const RegistrationButton = (props) => {
       alert("Success");
       printValues();
     }
-  };
-
-  const onEmailCheck = () => email.includes("@");
-  const onFullNameCheck = () => {
-    const regex = /^[a-zA-Z\s]{1,120}$/;
-    return regex.test(fullName);
-  };
-  const onPasswordCheck = () => password.length >= 8;
-
-  const printValues = () => {
-    console.log(fullName, email, password);
   };
 
   return (

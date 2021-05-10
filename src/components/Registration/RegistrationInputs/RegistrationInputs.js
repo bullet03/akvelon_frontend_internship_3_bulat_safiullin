@@ -1,4 +1,5 @@
 import styles from "./RegistrationInputs.module.css";
+import RegistrationSingleInput from "./RegistrationSingleInput"
 
 const RegistrationInputs = (props) => {
   const { setfullName, setEmail, setPassword } = props;
@@ -16,28 +17,16 @@ const RegistrationInputs = (props) => {
   return (
     <>
       <div className={styles.fieldContainer}>
-        <div>
-          <span>Full Name:</span>
-        </div>
-        <div>
-          <input type="text" onChange={onChangeName} />
-        </div>
+        <span>Full Name:</span>
+        <RegistrationSingleInput funcToUse={onChangeName} />
       </div>
       <div className={styles.fieldContainer}>
-        <div>
-          <span>E-mail:</span>
-        </div>
-        <div>
-          <input type="text" onChange={onEmailChange} />
-        </div>
+        <span>E-mail:</span>
+        <RegistrationSingleInput funcToUse={onEmailChange} />
       </div>
       <div className={styles.fieldContainer}>
-        <div>
-          <span>Password:</span>
-        </div>
-        <div>
-          <input type="text" onChange={onPasswordChange} />
-        </div>
+        <span>Password:</span>
+        <RegistrationSingleInput funcToUse={onPasswordChange} />
       </div>
     </>
   );
