@@ -6,6 +6,18 @@ import SliderArrow from "./SliderArrow"
 const Slider = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
+  const showNext = () => {
+    if (imageIndex !== sliderImages.length - 1) {
+      setImageIndex(imageIndex + 1);
+    } 
+  };
+
+  const showPrev = () => {
+    if (imageIndex !== 0) {
+      setImageIndex(imageIndex - 1);
+    }
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.slider}>
@@ -14,7 +26,7 @@ const Slider = () => {
           setImageIndex={setImageIndex}
           sliderImages={sliderImages}
           sign={"<"}
-          func="showPrev"
+          funcToUse={showPrev}
         />
         <img
           src={sliderImages[imageIndex]}
@@ -26,7 +38,7 @@ const Slider = () => {
           setImageIndex={setImageIndex}
           sliderImages={sliderImages}
           sign={">"}
-          func="showNext"
+          funcToUse={showNext}
         />
       </div>
     </section>
