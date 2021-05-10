@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/akvelon_frontend_internship_3_bulat_safiullin/static/css/main.f36122d2.chunk.css",
-    "main.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.8b75356f.chunk.js",
-    "main.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.8b75356f.chunk.js.map",
+    "main.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.73eaaf18.chunk.js",
+    "main.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/main.73eaaf18.chunk.js.map",
     "runtime-main.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/runtime-main.914f030b.js",
     "runtime-main.js.map": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/runtime-main.914f030b.js.map",
     "static/js/2.6571e07b.chunk.js": "/akvelon_frontend_internship_3_bulat_safiullin/static/js/2.6571e07b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.914f030b.js",
     "static/js/2.6571e07b.chunk.js",
     "static/css/main.f36122d2.chunk.css",
-    "static/js/main.8b75356f.chunk.js"
+    "static/js/main.73eaaf18.chunk.js"
   ]
 }
