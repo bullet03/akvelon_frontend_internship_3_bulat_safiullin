@@ -6,9 +6,9 @@ React application with slider, registration form and function tasks. All availab
 
 <img src="./assets/screen.png" alt="screenshot"/>
 
-- React v17 (CRA)
-- Routing
-- CSS modules
+- React v17 (CRA).
+- Routing.
+- CSS modules.
 
 ### To Run Locally
 
